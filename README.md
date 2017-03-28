@@ -145,7 +145,7 @@ Just use "C:/Anaconda2/python.exe" as the location of python.
 $ ./configure
 Please specify the location of python. [Default is /usr/bin/python]:C:/Anaconda2/python.exe
 ```
-
+After installation is OK (both tensorboard and tensorboard.runfiles are successfully generated under `tensorboard/tensorflow/bazel-bin/tensorflow/tensorboard`) go to tensorboard/python and type `python setup.py install`
 
 ## Usage
 `dmlc/tensorboard` contains two parts in general, currently we have [Python interface](https://github.com/dmlc/tensorboard/tree/master/python) 
