@@ -134,7 +134,7 @@ For Windows run "bash installer_windows.sh" from cmd.exe
 
 ```bash
 C:\>cd tensorboard
-C:\tensorboard>bash installer.sh
+C:\tensorboard>bash installer_windows.sh
 # In this process, it might need configuration or failed in bazel build, just retry the specific step.
 ```
 
